@@ -1,0 +1,13 @@
+fastapi
+uvicorn[standard]
+requests
+openai
+sqlalchemy
+alembic
+pydantic
+python-dotenv
+newspaper3k
+beautifulsoup4
+httpx
+python-dateutil
+psycopg2-binary
