@@ -2,6 +2,7 @@
 Main scraper orchestrator that fetches, processes, and stores HN stories.
 """
 import os
+from typing import Optional
 from dotenv import load_dotenv
 from .db import init_db, SessionLocal
 from .models import Story
@@ -147,5 +148,4 @@ def run_once(limit: Optional[int] = None):
 
 
 if __name__ == "__main__":
-    from typing import Optional
     run_once()
